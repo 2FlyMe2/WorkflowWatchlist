@@ -58,6 +58,9 @@ function processEmails() {
         sheet.getRange(firstEmptyRow, 4).setValue(url || ""); // Column D: URL
         sheet.getRange(firstEmptyRow, 5).setValue(''); // Column E: Entry (blank)
         sheet.getRange(firstEmptyRow, 6).setValue(today);   // Column F: Date
+        sheet.getRange(firstEmptyRow, 10).setValue(''); // Column J: Support (blank)
+        sheet.getRange(firstEmptyRow, 11).setValue(''); // Column K: Limit (blank)
+        sheet.getRange(firstEmptyRow, 12).setValue(''); // Column L: Prediction (blank)
         sheet.getRange(firstEmptyRow, 15).setValue(body);   // Column T: Source
         sheet.getRange(firstEmptyRow, 14).setValue(subject); // Column S: Note
         sheet.getRange(firstEmptyRow, 16).setFormula(`=HYPERLINK("https://stocktwits.com/symbol/${ticker}", "StockTwits")`); // Column P: StockTwits link
