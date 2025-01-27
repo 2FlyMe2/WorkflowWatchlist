@@ -1,2 +1,2 @@
 # WorkflowWatchlist
-Scripts for Google Sheet: See linked Gitbook space 
+Scripts for Google Sheet: See Gitbook https://flyme2.gitbook.io/
